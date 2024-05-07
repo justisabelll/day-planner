@@ -4,9 +4,9 @@
 
 @font-face {
   font-family: 'Geist';
-  src: url(static/font/GeistVariableVF.ttf);
+  src: url(/static/font/GeistVariableVF.ttf);
 }
 @font-face {
   font-family: 'PerfectlyNineties-Regular';
-  src: url(static/font/PerfectlyNineties-Regular.otf);
+  src: url(/static/font/PerfectlyNineties-Regular.otf);
 }
