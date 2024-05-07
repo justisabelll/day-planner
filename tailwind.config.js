@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Geist', 'sans-serif'],
+        sans: ['PerfectlyNineties-Regular', 'sans-serif'],
       },
     },
   },
