@@ -3,8 +3,7 @@
   "module": "index.tsx",
   "type": "module",
   "devDependencies": {
-    "bun-types": "latest",
-    "tailwindcss": "^3.4.1"
+    "bun-types": "latest"
   },
   "scripts": {
     "dev": "bun --watch src/index.tsx",
@@ -16,9 +15,12 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@elysiajs/html": "^0.8.0",
+    "@elysiajs/html": "^1.0.2",
+    "@gtramontina.com/elysia-tailwind": "2.0.0",
     "elysia": "latest",
+    "elysia-rate-limit": "^4.0.0",
     "elysia-tailwind": "1.0.9",
-    "htmx.org": "^1.9.10"
+    "htmx.org": "^1.9.10",
+    "is-html": "^3.1.0"
   }
 }
