@@ -132,7 +132,6 @@ const TodoItem = ({ task }: { task: Task }) => {
               type="checkbox"
               hx-post={`/toggleTask/${task.id}?isDone=${!task.isDone}`}
               hx-target="#todo-list-and-form"
-              class="p-6"
               name="isDone"
               checked={task.isDone ? true : false}
             />
