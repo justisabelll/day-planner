@@ -93,7 +93,8 @@ const app = new Elysia()
   )
 
   .get('/tasks', () => tasks)
-  .listen(3000);
-console.log(
-  `🦊 Elysia is running at ${app.server?.hostname}:${app.server?.port}`
-);
+  .listen(Number(process.env.PORT) || 3000, () => {
+    console.log(
+      `🦊 Elysia is running at http://0.0.0.0:${process.env.PORT || 3000}`
+    );
+  });

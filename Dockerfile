@@ -1,4 +1,4 @@
-# barely understand how this works 
+# barely understand how this works
 
 FROM oven/bun
 
@@ -19,4 +19,3 @@ COPY public public
 ENV NODE_ENV production
 CMD ["bun", "src/index.tsx"]
 
-EXPOSE 3000
