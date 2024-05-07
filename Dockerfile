@@ -13,6 +13,7 @@ COPY src src
 COPY tsconfig.json .
 COPY tailwind.config.js .
 COPY public public
+COPY static static
 
 
 
